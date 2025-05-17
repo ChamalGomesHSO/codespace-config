@@ -8,7 +8,7 @@ cp .bash_aliases ~/
 # Install `uv` if not available
 if ! command -v uv &>/dev/null; then
   echo "[+] Installing uv..."
-  curl -sL https://raw.githubusercontent.com/astral-sh/uv/main/install.sh | bash
+  curl -LsSf https://astral.sh/uv/install.sh | sh
 fi
 
 # Install `just` if not available
