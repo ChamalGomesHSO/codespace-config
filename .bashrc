@@ -7,10 +7,6 @@ shopt -s checkwinsize
 # Uncomment for advanced globbing
 # shopt -s globstar
 
-# Set default working directory
-mkdir -p ~/repos
-cd ~/repos
-
 # Colored prompt with Git
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 &>/dev/null; then
